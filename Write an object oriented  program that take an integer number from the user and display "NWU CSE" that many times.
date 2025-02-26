@@ -1,0 +1,25 @@
+/// Write an object oriented  program that take an integer number from the user and display "NWU CSE" that many times.
+#include<iostream>
+using namespace std;
+class sanjana
+{
+public:
+    int tinni,nabila;
+    void porimoni(void);
+};
+void sanjana :: porimoni(void)
+{
+    cout<<"Enter a integer value: ";
+    cin>>tinni;
+    for(nabila=1; nabila<=tinni; nabila++)
+    {
+        cout<<"NWU CSE";
+        cout<<endl;
+    }
+}
+int main()
+{
+    sanjana srabinti;
+    srabinti.porimoni();
+    return 0;
+}
